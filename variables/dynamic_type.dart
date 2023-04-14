@@ -12,5 +12,8 @@ void main(List<String> args) {
   dynamic temp;
   //이와 같이 if문으로 타입 마다 타입속성을 사용할 수 있게 해준다.
   if (temp is String) {
-  } else if (temp is int) {}
+    print(temp.contains("other")); //other이 포함되어 있으면 true
+  } else if (temp is int) {
+    print(temp.isOdd); //홀수이면 true
+  }
 }

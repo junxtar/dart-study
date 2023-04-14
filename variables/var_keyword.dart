@@ -8,6 +8,8 @@ void main(List<String> args) {
   String name = 'jun';
   print(name);
 
+  int age = 25;
+  print(age);
   //관습적으로 함수나 메서드 내부에 지역 변수를 선언할 때는 var를 사용
   //그리고 class에서 변수나 property를 선언할 때에는 타입을 지정해서 사용
 }
